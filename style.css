@@ -141,14 +141,14 @@ footer {
 }
 
 .cart-btn {
-  background: "#ff4fa3;
+  background: "#ffe4f0;
   color: #fff;
   text-decoration: none;
   padding: 10px 15px;
   boder-radius: 6px;
   font-weight: 600;
   display:inline-block;
-  margin:10px 0;
+  margin-bottom: 20px;
 }
 .cart-btn:hover {
 background:#e63e8c;    /*darker pink on hover*/
@@ -438,3 +438,4 @@ background:#e63e8c;    /*darker pink on hover*/
   }
 
 }
+
