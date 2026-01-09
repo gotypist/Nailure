@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog - NailPen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">NailPen</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Blog Section -->
+  <section class="blog">
+  <h1>Our Blog</h1>
+  <p class="intro">Stay updated with the latest tips, trends, and NailPen news!</p>
+
+  <div class="blog-grid">
+    <!-- Blog Post 1 -->
+    <div class="blog-post">
+      <button class="blog-title">Top 5 Nail Care Tips Every Girl Should Know</button>
+      <div class="blog-content">
+        <p>
+          Healthy nails are the foundation of a perfect manicure. Here are five tips to keep them strong and stylish:
+        <ol class="cute-numbers">
+          <li>Always clean your nails before applying polish.</li>
+          <li>Use a base coat to protect against staining.</li>
+          <li>Moisturize your cuticles daily.</li>
+          <li>Avoid biting or peeling polish.</li>
+          <li>Use NailPen remover for quick, gentle clean-ups.</li>
+         </ol>
+        </p>
+      </div>
+    </div>
+
+    <!-- Blog Post 2 -->
+    <div class="blog-post">
+      <button class="blog-title">Introducing the Pastel Peach NailPen</button>
+      <div class="blog-content">
+        <p>
+          Say hello to our newest shade — Pastel Peach! 🌸  
+          Soft, subtle, and perfect for everyday glam.  
+          With polish on one end and remover on the other, it’s your go-to for effortless beauty.
+        </p>
+      </div>
+    </div>
+
+    <!-- Blog Post 3 -->
+    <div class="blog-post">
+      <button class="blog-title">2026 Nail Color Trends You’ll Love</button>
+      <div class="blog-content">
+        <p>
+          This year is all about bold contrasts and soft pastels:</p>
+        <ul>  
+          <li>💖 Shocking Pink is making waves as the ultimate statement shade.</li>  
+          <li>🔴 Classic Red remains timeless.</li>
+          <li>🌸 Pastel Peach is the new everyday favorite.</li>
+        </ul>  
+          <p>NailPen makes it easy to stay on-trend with dual-function convenience.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  const titles = document.querySelectorAll('.blog-title');
+  titles.forEach(title => {
+    title.addEventListener('click', () => {
+      const content = title.nextElementSibling;
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
