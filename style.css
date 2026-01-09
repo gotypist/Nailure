@@ -140,6 +140,15 @@ footer {
   margin-bottom: 2rem;
 }
 
+.btn {
+  background: #ff1493;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
 .cart-grid {
   display: flex;
   flex-wrap: wrap;
@@ -445,5 +454,6 @@ background:#e63e8c;    /*darker pink on hover*/
   }
 
 }
+
 
 
