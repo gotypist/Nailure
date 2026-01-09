@@ -140,6 +140,20 @@ footer {
   margin-bottom: 2rem;
 }
 
+.cart-btn {
+  background: "#ff4fa3;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  boder-radius: 6px;
+  font-weight: 600;
+  display:inline-block;
+  margin:10px 0;
+}
+.cart-btn:hover {
+background:#e63e8c;    /*darker pink on hover*/
+}
+
 .product-grid {
   display: flex;
   flex-wrap: wrap;
@@ -422,4 +436,5 @@ footer {
     font-size: 0.95rem;
     line-height: 1.5;
   }
+
 }
