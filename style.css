@@ -140,6 +140,13 @@ footer {
   margin-bottom: 2rem;
 }
 
+.cart-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
 .cart-btn {
   background: "#ffe4f0;
   color: #fff;
@@ -438,4 +445,5 @@ background:#e63e8c;    /*darker pink on hover*/
   }
 
 }
+
 
